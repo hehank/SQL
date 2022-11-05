@@ -164,6 +164,7 @@ lang: zh-tw
 - 可以是實際存在的物品，也可以是概念性的事物。
 - Ex：學生、課程。
 - 表示圖形：長方形
+    
 ![](https://i.imgur.com/QcbLj2s.png)
 
 
@@ -171,6 +172,7 @@ lang: zh-tw
 - 是指需要依賴其他實體而存在的實體。
 - Ex：教職員的眷屬、課程的上課教室。
 - 表示圖形：雙同心長方形
+
 ![](https://i.imgur.com/eddJgKs.png)
 
 ## 屬性 (Attribute)
@@ -188,12 +190,14 @@ lang: zh-tw
 - 指已經不能再細分為更小單位的屬性。
 - Ex：`學號`屬性便是`簡單屬性`。
 - 表示圖形：橢圓形
+
 ![](https://i.imgur.com/VVoT4Ra.png)
 
 ### 複合屬性(composite attribute)
 - 屬性是由`兩個`或`兩個以上`的其他屬性的值所組成，並且代表未來該屬性可以進一步作切割。
 - Ex：`地址`屬性是由區域號碼、縣市、鄉鎮、路、巷、弄、號等各個屬性所組成。
 - 表示圖形：
+
 ![](https://i.imgur.com/UaRCs2O.png)
 
 ### 鍵屬性(Key attribute)
@@ -206,18 +210,21 @@ lang: zh-tw
 - 是指屬性中只會存在一個單一值。
 - Ex：學號
 - 表示圖形：橢圓形
+
 ![](https://i.imgur.com/VVoT4Ra.png)
 
 ### 多值屬性(Multi-valued attribute)
 - 指屬性中會存在多個數值。
 - Ex：學生的`電話`
 - 表示圖形：雙邊線的橢圓形
+
 ![](https://i.imgur.com/cjKCwUr.png)
 
 ### 衍生屬性(Derived attribute)
 - 指可由其他`屬性`或`欄位`計算而得的屬性。
 - Ex：年齡
 - 表示圖形：虛線橢圓形
+
 ![](https://i.imgur.com/Uxh39Gv.png)
 
 ## 關係 (Relationship)
@@ -232,6 +239,7 @@ lang: zh-tw
 
 ### 表示圖形
 - 菱形
+
 ![](https://i.imgur.com/cBnKmmA.png)
 
 ### 關係的基數性 (cardinality)
